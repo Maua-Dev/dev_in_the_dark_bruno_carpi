@@ -1,14 +1,82 @@
-* {
+/* * { */
   /* Recomendo não alterar nada aqui dentro */
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
+} */
+
+/* :root { */
+  /* Recomendo não alterar nada aqui dentro, só adicionar */
+  /* --purple: #a10aa4;
+  --blue: #021f59;
+} */
+ 
+.h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-display: block;
+  font-variant: normal;
+  color: plum;
 }
 
-:root {
-  /* Recomendo não alterar nada aqui dentro, só adicionar */
-  --purple: #a10aa4;
-  --blue: #021f59;
+.h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-display: block;
+  font-variant: normal;
+  color: orange;
+}
+
+.h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-display: block;
+  font-variant: normal;
+  color: cornflowerblue;
+}
+
+.body1 {
+  height: 2080px;
+  width: 2080px;
+  margin-top: 45%;
+  margin-bottom: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: block;
+  color: plum;
+  background-color: white;
+  font-display: auto;
+  justify-content: left;
+  align-items: left;
+  border-radius: 400px;
+}
+.body2 {
+  height: 1080px;
+  width: 1080px;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: block;
+  color: orange;
+  background-color: white;
+  font-display: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+
+.body3 {
+  height: 2080px;
+  width: 2080px;
+  margin-top: 45%;
+  margin-bottom: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: block;
+  color: cornflowerblue;
+  background-color: white;
+  font-display: auto;
+  justify-content: right;
+  align-items: right;
+  border-radius: 400px;
 }
