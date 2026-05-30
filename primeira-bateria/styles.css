@@ -14,20 +14,20 @@
   --blue: #002776;
 } */
 
-body1 {
-  color:green;
+.body1 {
+  background-color:green;
   background:color-mix(in hsl longer hue, color 40%, color 30%);
 
 }
 
-body2 {
-  color:yellow;
+.body2 {
+  background-color:yellow;
   background:color-mix(in hsl longer hue, color 45%, color 70%);
 
 }
 
-body3 {
-  color:blue;
+.body3 {
+  background-color:blue;
   background:color-mix(in hsl longer hue, color 65%, color 20%);
 
 }

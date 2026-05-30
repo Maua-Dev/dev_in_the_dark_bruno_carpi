@@ -1,14 +1,39 @@
-* {
+/* * { */
   /* Recomendo não alterar nada aqui dentro */
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
+} */
+
+/* :root { */
+  /* Recomendo não alterar nada aqui dentro, só adicionar */
+  /* --red: #bf2626;
+  --blue: #021f59;
+} */
+
+
+.body1 {
+  height: 1080px;
+  width: 1080px;
+  display: block;
+  color: red;
+  background-color: white;
+  font-display: auto;
+  justify-content: left;
+  align-items: left;
+  border-radius: 20px;
 }
 
-:root {
-  /* Recomendo não alterar nada aqui dentro, só adicionar */
-  --red: #bf2626;
-  --blue: #021f59;
+.body2 {
+  height: 1080px;
+  width: 1080px;
+  display: block;
+  color: blue;
+  background-color: white;
+  font-display: auto;
+  justify-content: right;
+  align-items: right;
+  border-radius: 20px;
 }
