@@ -1,15 +1,33 @@
-* {
+/* * { */
   /* Recomendo não alterar nada aqui dentro */
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
-}
+} */
 
-:root {
+/* :root { */
   /* Recomendo não alterar nada aqui dentro, só adicionar */
-  --green: #009c3b;
+  /* --green: #009c3b;
   --yellow: #ffdf00;
   --blue: #002776;
+} */
+
+body1 {
+  color:green;
+  background:color-mix(in hsl longer hue, color 40%, color 30%);
+
+}
+
+body2 {
+  color:yellow;
+  background:color-mix(in hsl longer hue, color 45%, color 70%);
+
+}
+
+body3 {
+  color:blue;
+  background:color-mix(in hsl longer hue, color 65%, color 20%);
+
 }
